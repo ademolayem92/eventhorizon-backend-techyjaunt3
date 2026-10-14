@@ -24,23 +24,6 @@ Authentication microservice foundation.
 *   **Validation:** Joi
 *   **Security & Auth:** JSON Web Tokens (JWT), Bcrypt
 *   **Email Service:** Nodemailer (or preferred SMTP client)
-
----
-
-## 📂 Project Structure Example
-
-```text
-├── config/             # Database and server configurations
-├── controllers/        # Request handlers for authentication and user profiles
-├── middleware/         # Auth guards and validation catchers
-├── models/             # Mongoose schemas (User, VerificationToken)
-├── routes/             # API endpoint definitions
-├── utils/              # Email helper functions
-├── .env.example        # Environment variables template
-├── app.js              # Application entry point
-└── package.json        # Project dependencies
-```
-
 ---
 
 ## ⚙️ Installation & Setup
